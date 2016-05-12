@@ -1,0 +1,26 @@
+{
+  "name": "eyeos-usernotification",
+  "version": "0.0.49",
+  "description": "Library to notify users in eyeos",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --ui tdd ./src/test"
+  },
+  "author": "eyeos",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "eyeos-gruntfile": "*",
+    "mocha": "~2.2.5",
+    "chai": "~2.3.0",
+    "sinon": "~1.14.1",
+    "grunt": "0.4.5",
+    "grunt-init": "0.2.1",
+    "grunt-shell": "0.7.0",
+    "grunt-mocha-test": "0.11.0"
+  },
+  "dependencies": {
+    "log2out": "*",
+    "eyeos-stomp": "~0.1.2",
+    "eyeos-amqp": "*"
+  }
+}
