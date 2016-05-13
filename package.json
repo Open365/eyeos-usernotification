@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "log2out": "*",
-    "eyeos-stomp": "~0.1.2",
+    "eyeos-stomp": "*",
     "eyeos-amqp": "*"
   }
 }
